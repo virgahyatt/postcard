@@ -13,6 +13,10 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    EKEvent *testEvent = [[EKEvent alloc] init];
+    EKEventStore *store = [[EKEventStore alloc] initWithAccessToEntityTypes:EKEntityMaskEvent];
+    (EKEvent *)eventWithEventStore:(store *)eventStore;
+    
 }
 
 @end
